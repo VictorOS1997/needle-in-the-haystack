@@ -22,7 +22,7 @@ data/sales.xlsx        input data
 analysis.py            checks, detection, fix and impact
 charts/                charts used in the memo (generated)
 output/sales_fixed.csv corrected data (generated)
-memo.pdf               1-page memo plus appendix (memo.md is the source)
+memo.pdf               1-page memo plus appendix
 ```
 
 ## Finding
