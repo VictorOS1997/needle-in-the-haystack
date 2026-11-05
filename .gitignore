@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+output/
+
+# original case files
+Needle in the Haystack Dataset - Victor S (1).xlsx
+[[]External] Data Operations Take Home_ Needle in the Haystack.pdf
+
+Thumbs.db
+.DS_Store
