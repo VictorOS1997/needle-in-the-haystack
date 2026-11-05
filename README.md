@@ -2,6 +2,15 @@
 
 Data quality review of daily unit sales (50 SKUs x 50 states, Oct 1 to Dec 31, 2024), with a fix for the issue found and a memo for Customer Success.
 
+## Data
+
+The dataset is not included in the repo. Put the file you received at `data/sales.xlsx`, renamed exactly like that:
+
+```
+data/
+  sales.xlsx    # columns: date, state, sku, units_sold
+```
+
 ## Run
 
 Requires Python 3.11+.
@@ -18,7 +27,7 @@ The script prints the checks and impact figures, saves the charts and writes the
 ## Layout
 
 ```
-data/sales.xlsx        input data
+data/sales.xlsx        input data (not in the repo, see Data)
 analysis.py            checks, detection, fix and impact
 charts/                charts used in the memo (generated)
 output/sales_fixed.csv corrected data (generated)

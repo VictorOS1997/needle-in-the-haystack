@@ -10,6 +10,8 @@ KEYS = ["state", "sku"]
 
 
 def load():
+    if not DATA.exists():
+        raise SystemExit(f"Dataset not found: put it at {DATA} (see README)")
     df = pd.read_excel(DATA)
     df["date"] = pd.to_datetime(df["date"])
     return df.sort_values(KEYS + ["date"]).reset_index(drop=True)

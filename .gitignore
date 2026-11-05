@@ -1,6 +1,7 @@
 .venv/
 __pycache__/
 output/
+data/
 
 # original case files
 Needle in the Haystack Dataset - Victor S (1).xlsx
